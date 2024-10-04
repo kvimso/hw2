@@ -1,0 +1,27 @@
+.gilak {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+    border: 2px solid black;
+    
+}
+
+.gilak:active {
+    transform: scale(0.95); /* Scale down the button */
+    background-color: #45a049; /* Darker green */
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 20vh;        
+}
